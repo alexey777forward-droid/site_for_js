@@ -74,7 +74,7 @@ console.log(b); // Ошибка! TypeError: Assignment to constant variable.
 // Всегда по возможности используйте const
 // Всегда старайтесь давать осмысленные названия переменным
 
-const firstName = 'Dmitry';
+const firstName = 'Alex';
 const age = 33;
 
 // console.log(firstName, age);
