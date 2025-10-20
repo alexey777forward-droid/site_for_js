@@ -65,3 +65,4 @@ const greeting = 'Hello ' + 'World!'; // результат в консоли He
 
 console.log(greeting);
 console.log(1 + 'bla-bla-bla'); // результат в консоли 1 bla-bla-bla
+console.log(1 + '1'); // результат в консоли 11 такие дела брат))
