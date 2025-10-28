@@ -20,12 +20,13 @@ value = 10.29442313.toFixed(3);
 
 // console.log(value);
 // ---------------------------------
-// Casting
+
+// Casting какой тип скостуется с ...
 
 let val = 10;
-val = 10 + '10'; // ('1010') string
-val = 10 * '10'; // (100) number
-val = 10 / '10'; // (1) number
+val = 10 + '10'; // результат ('1010') string
+val = 10 * '10'; // результат (100) number
+val = 10 / '10'; // результ(1) number
 val = 10 - '10'; // (0) number
 val = 10 % '10'; // (0) number
 
@@ -33,8 +34,8 @@ val = 10 + true; // (11) true приводится в 1
 val = 10 + false // (10) false приводтся к 0, так как это falsy значение
 val = 10 + null // (10) null приводтся к 0, так как это falsy значение
 
-val = 10 + undefined // (NaN)
-val = 10 + NaN // (NaN)
+val = 10 + undefined // (NaN) Not A Number
+val = 10 + NaN // (NaN) Not A Number
 val = 10 + [] // ('10') string
 val = 10 + {} // (10[object Object]) string
 
@@ -50,11 +51,11 @@ val = false + false; // (0) number
 // === сравнивается по типу и по значению, без приведения типов
 // Результат сравнения всегда true или false
 
-let res;
+let res; // res т.е. result
 res = true == true; // true
-res = true === true; // true
+res = true === true; // true, === более новое более строгое с приведением типов и значений
 res = true == 1; // true
-res = true === 1; // false
+res = true === 1; // false, === более новое более строгое с приведением типов и значений
 
 res = false == 0; // true
 res = false === 0; // false
@@ -62,8 +63,8 @@ res = false === 0; // false
 res = 1 == '1'; // true
 res = 1 === '1'; // false
 
-res = null == undefined; // true
-res = null === undefined; // false
+res = null == undefined; // true см. таблицу в pdf
+res = null === undefined; // false см. таблицу в pdf
 
 res = '' == []; // true
 res = '' === []; // false
