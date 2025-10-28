@@ -3,15 +3,15 @@
 // const age = 18;
 
 // if (age >= 18) {
-//     console.log('Ты можешь делать, что хочешь!')
+//     console.log('Заходи')
 // }
 
 const age = 17;
 
 if (age >= 18) {
-  console.log("Ты можешь делать, что хочешь!");
+  console.log("Заходи");
 } else {
-  console.log("Всё будет, но надо еще подождать!");
+  console.log("Тебе ещё рановато");
 }
 
 if (age !== 18) {
