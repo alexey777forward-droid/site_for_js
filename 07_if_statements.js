@@ -115,5 +115,5 @@ if (res > 0) {
 
 // задача 3 тоже что и 2 только через тернарного оператора:
 const res = prompt('Введите число', 0);
-const check =  res > 0 ? "1" : res < 0 "-1" : "0"
+const check =  res > 0 ? "1" : res < 0 "-1" : "0";
 console.log(check);
